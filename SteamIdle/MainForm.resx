@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="TrayApp.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="MenuOptions.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>114, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TrayApp.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AADvrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQH/760B/++tAf/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/8KwA/+6tAP/vrQD/760A/++tAf/wrgP/8K4B//CsAP/wrAD/8K0A//CvAv/vrgP/7q0A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A//CtAf/trwH/8K0A/+6tAf/wrwL/8K0A/+ynAP/rqgH/7q8N/+2xFP/prAr/66cA/+6p
+        AP/vrwL/8K0C/+6tAP/urQD/8K0A//CtAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760B/++vAf/xrQH/764E/+2oAP/rsRT/7s1k//binv/36bT/+PPU//ny
+        2//y4aX/6sBH/+upAf/vrQH/8K4B//CuAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/urQD/8K0A/+6uBP/tqAD/7MJB//jsuv//9dj//PLW//vw
+        zf/59N///////////v/+////8uCo/+irEv/urAD/8a8C/++tAP/urQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/urwP/76gA/+vDTP/89NP//PHR//vu
+        yP/678r//e/K//nvzf/9/fj//v38//79+v//////9uq//+erDf/wrgH/8K8E/++tAf/urgD/764A//Ct
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/8K0D/+6sAP/rtCL/+vDE//vw
+        zv/77sj/++/L//vuy//48Mj/+u3I//z36v/+///////+//79+v//////8NqS/+qjAP/wqQL/7q4B/+6u
+        BP/wrQH/7q4A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrgT/6qkA//PX
+        gf/89dj//O7H//rvzP/57sz//PLO//301//689D//Pfo//7////////////+///+///9+/X/7dCA/+u/
+        Q//pqw7/7qcA/+6vA//vrQL/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760B//Ct
+        AP/rrxL/+uu5//7xzv/878r/+e7L//3xzv/67Ln/7cZV/+69N//x2oz//v/+/////////////v/+//39
+        /P///////v////jy2f/qxFH/6agA//CvA//vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrgL/76kA/+66LP/58s3/+u7N//vwyv/778v//PPP/+2+QP/spAD/8KsC/+emAP/157v///////3+
+        /P////7//v7///39+//+/vz///////7////tyGj/7KcA/++vAv/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++uAv/vqQD/7b85//rz0v/77sv/+vDJ//7xzf/27Lz/6K4U//KvAf/vsQ3/7agA/+3R
+        ef/+/////v36//7+///+/////v/+//7//v/+/v3///////z78v/otiv/76sA/++uAv/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/764C/++qAP/tuy7/+/LN//zvy//678z//O7M//7zzv/svkD/7aUA/+6r
+        Av/pqAD/8+Cg///////9/v3//P////7//v/+/v///f3+//r58P/6+u3///////HcmP/rpwD/8K4D/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQH/7q0A/+2vEf/467n/+vHP//zvy//778v/+/HR//js
+        uf/uxlP/7Lw5//PaiP/78tD//fjv//3////+/v/////+//7////8/Pf/6d2w/+TAW//ltDL/7L03/+2u
+        BP/wrQD/8K0A/+6tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/wrgP/66kA//PXgf/+9Nj/++7G//vx
+        yv/778v/+/DQ//301f/889P//PPU//ruyP/789z//f////7+/v///////////////////////Pvv//Pf
+        n//nsR3/76kA/++vA//wrQL/7q4A/++tAP/vrQD/760A/++tAP/vrQD/760A/++uAv/urAD/7LUh//vw
+        xP/68M//+e/I//rwyv/87sz/++7J//vuyf/77sn/++/L//jwzP/9+/P///79/////v////////////3+
+        ///+//3//v////z68f/qwEv/7KkA//KvA//vrAH/760A/++tAP/vrQD/760A/++tAP/vrQD/7q4A//Gu
+        A//tqQD/7cRI//32z//779P/+e/H//zuyf/778r/++/K//vvyf/77sr/+u3J//v35f////////79///+
+        /P///v3//f79///9/P/8/fj//f////r77v/ptS//8KoA/++uAv/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A//CuA//sqAD/68BE//juuf/89dj//PHV//zw0P/78ND/+/HR//z01//+9dT/8tV7/+3W
+        iv///////////////////////////////////vz///////Tktv/qqQD/8a4B/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A//CuAv/tqQD/6rAU//DOZP/z453/+Ou1//vsuv/1567/8tmH/+2+
+        Ov/qqgD/7KcB/+zBTP/046r/9/DR//n14//79+b//Pfo//v35//69+j/+vbh/+u3Jv/uqwD/760C/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A//GuA//trAH/7agA/+mqAf/qrw//6rAV/+ut
+        CP/upwD/7qkA//CuAv/wrwP/7qgA/+qoAP/pqwb/6K8S/+qxFf/qsRj/7LAY/+uwGf/rsRn/7a8K//Cs
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760B//GuAf/vrgX/8K0D//Cs
+        AP/wrQD/8a0A//GuA//urwT/760C/+6uAf/vrgT/764D/++uAP/wrQD/8KwA//CsAP/xrAD/8K0A/++s
+        AP/wrQD/7q0A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrgD/760B/++tAf/urQH/760A/++tAP/vrQD/760A/++tAP/vrQD/7q0B/++tAf/vrQH/760B/++t
+        Af/vrQH/764B//CtAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAICAAAAEAIACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAABAAABILAAASCwAAAAAAAAAA
+        AADvrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQH/760B/++tAf/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/8KwA/+6tAP/vrQD/760A/++tAf/wrgP/8K4B//CsAP/wrAD/8K0A//CvAv/vrgP/7q0A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A//CtAf/trwH/8K0A/+6tAf/wrwL/8K0A/+ynAP/rqgH/7q8N/+2xFP/prAr/66cA/+6p
+        AP/vrwL/8K0C/+6tAP/urQD/8K0A//CtAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760B/++vAf/xrQH/764E/+2oAP/rsRT/7s1k//binv/36bT/+PPU//ny
+        2//y4aX/6sBH/+upAf/vrQH/8K4B//CuAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/urQD/8K0A/+6uBP/tqAD/7MJB//jsuv//9dj//PLW//vw
+        zf/59N///////////v/+////8uCo/+irEv/urAD/8a8C/++tAP/urQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/urwP/76gA/+vDTP/89NP//PHR//vu
+        yP/678r//e/K//nvzf/9/fj//v38//79+v//////9uq//+erDf/wrgH/8K8E/++tAf/urgD/764A//Ct
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/8K0D/+6sAP/rtCL/+vDE//vw
+        zv/77sj/++/L//vuy//48Mj/+u3I//z36v/+///////+//79+v//////8NqS/+qjAP/wqQL/7q4B/+6u
+        BP/wrQH/7q4A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrgT/6qkA//PX
+        gf/89dj//O7H//rvzP/57sz//PLO//301//689D//Pfo//7////////////+///+///9+/X/7dCA/+u/
+        Q//pqw7/7qcA/+6vA//vrQL/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760B//Ct
+        AP/rrxL/+uu5//7xzv/878r/+e7L//3xzv/67Ln/7cZV/+69N//x2oz//v/+/////////////v/+//39
+        /P///////v////jy2f/qxFH/6agA//CvA//vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrgL/76kA/+66LP/58s3/+u7N//vwyv/778v//PPP/+2+QP/spAD/8KsC/+emAP/157v///////3+
+        /P////7//v7///39+//+/vz///////7////tyGj/7KcA/++vAv/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++uAv/vqQD/7b85//rz0v/77sv/+vDJ//7xzf/27Lz/6K4U//KvAf/vsQ3/7agA/+3R
+        ef/+/////v36//7+///+/////v/+//7//v/+/v3///////z78v/otiv/76sA/++uAv/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/764C/++qAP/tuy7/+/LN//zvy//678z//O7M//7zzv/svkD/7aUA/+6r
+        Av/pqAD/8+Cg///////9/v3//P////7//v/+/v///f3+//r58P/6+u3///////HcmP/rpwD/8K4D/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQH/7q0A/+2vEf/467n/+vHP//zvy//778v/+/HR//js
+        uf/uxlP/7Lw5//PaiP/78tD//fjv//3////+/v/////+//7////8/Pf/6d2w/+TAW//ltDL/7L03/+2u
+        BP/wrQD/8K0A/+6tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/wrgP/66kA//PXgf/+9Nj/++7G//vx
+        yv/778v/+/DQ//301f/889P//PPU//ruyP/789z//f////7+/v///////////////////////Pvv//Pf
+        n//nsR3/76kA/++vA//wrQL/7q4A/++tAP/vrQD/760A/++tAP/vrQD/760A/++uAv/urAD/7LUh//vw
+        xP/68M//+e/I//rwyv/87sz/++7J//vuyf/77sn/++/L//jwzP/9+/P///79/////v////////////3+
+        ///+//3//v////z68f/qwEv/7KkA//KvA//vrAH/760A/++tAP/vrQD/760A/++tAP/vrQD/7q4A//Gu
+        A//tqQD/7cRI//32z//779P/+e/H//zuyf/778r/++/K//vvyf/77sr/+u3J//v35f////////79///+
+        /P///v3//f79///9/P/8/fj//f////r77v/ptS//8KoA/++uAv/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A//CuA//sqAD/68BE//juuf/89dj//PHV//zw0P/78ND/+/HR//z01//+9dT/8tV7/+3W
+        iv///////////////////////////////////vz///////Tktv/qqQD/8a4B/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A//CuAv/tqQD/6rAU//DOZP/z453/+Ou1//vsuv/1567/8tmH/+2+
+        Ov/qqgD/7KcB/+zBTP/046r/9/DR//n14//79+b//Pfo//v35//69+j/+vbh/+u3Jv/uqwD/760C/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A//GuA//trAH/7agA/+mqAf/qrw//6rAV/+ut
+        CP/upwD/7qkA//CuAv/wrwP/7qgA/+qoAP/pqwb/6K8S/+qxFf/qsRj/7LAY/+uwGf/rsRn/7a8K//Cs
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760B//GuAf/vrgX/8K0D//Cs
+        AP/wrQD/8a0A//GuA//urwT/760C/+6uAf/vrgT/764D/++uAP/wrQD/8KwA//CsAP/xrAD/8K0A/++s
+        AP/wrQD/7q0A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrgD/760B/++tAf/urQH/760A/++tAP/vrQD/760A/++tAP/vrQD/7q0B/++tAf/vrQH/760B/++t
+        Af/vrQH/764B//CtAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++tAP/vrQD/760A/++t
+        AP/vrQD/760A/++tAP/vrQD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+</root>
